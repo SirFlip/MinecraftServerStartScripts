@@ -15,7 +15,7 @@ is_running() {
 }
 
 
-if [ ! -e script.name ]; then 
+if [ ! -e service.name ]; then 
   exit -1
 fi
 
